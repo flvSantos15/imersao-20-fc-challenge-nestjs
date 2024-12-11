@@ -1,0 +1,19 @@
+GET http://localhost:3000/assets
+
+###
+GET http://localhost:3000/orders
+
+###
+
+# @originId = EkZBdi4gR292LiBWYWxhZGFyZXMsIDEwMDAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTU3NSwgQnJhc2lsIjESLwoUChIJja7gMwfdpgARgN9V_RFivpEQ6AcqFAoSCfmsiD4H3aYAEdRlj37c-uzz
+# @destinationId = ChIJTcM3WRKWpgARIBxMZeldEtM
+
+
+###
+POST http://localhost:3000/assets
+Content-Type: application/json
+
+{
+    "id": "674ef78bab1148ea9161c23b",
+    "symbol": "R$"
+}
