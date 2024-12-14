@@ -1,3 +1,4 @@
+###
 GET http://localhost:3000/assets
 
 ###
@@ -16,4 +17,13 @@ Content-Type: application/json
 {
     "id": "674ef78bab1148ea9161c23b",
     "symbol": "R$"
+}
+
+###
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+    "asset_id": "674ef78bab1148ea9161c23b",
+    "price": 100
 }
